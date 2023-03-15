@@ -2,13 +2,13 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
- */
+*/
 package guia.pkg3.ejercicios.practicos;
 
 import java.util.Scanner;
 
 /**
- *
+ * Crear un programa que dado un número determine si es par o impar.
  * @author iacon
  */
 public class Ejercicio1 {

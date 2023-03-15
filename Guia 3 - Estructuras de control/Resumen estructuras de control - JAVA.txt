@@ -1,0 +1,39 @@
+Estructuras de Control
+	Sentencias de salto
+		Break		//Abandona la estructura de control y continua el programa
+		Continue	//Corta la iteracion donde se encuentra continue y sigue el bucle
+
+	Estructuras condicionales
+	. if / if else / else - si, sino si, sino 
+		if(<condición 1>) {
+  		<sentencias A>
+		} if else (<condicion2>) {
+   		<sentencias B>
+		} else {
+		<sentencias C>
+		}
+      	. Switch - Segun variable Hacer
+		switch(<variable>) {
+		case <valor1>:
+		<sentencias1>
+		break;		
+		case <valor2>:
+		<sentencias2>
+		break;
+		default:
+		<sentencias3>
+	}
+
+	Estructuras repetitivas
+	. while - mientras
+		while (<condición>) {
+		<sentencias>
+		}
+	. do while - hacer mientras
+		do {
+		<sentencias>
+		} while (<condición>);
+	. for - para
+		for (<declaracion/inicialización>; <terminación - siempre que>; <incremento/decremento>) {
+		<sentencias>
+		}

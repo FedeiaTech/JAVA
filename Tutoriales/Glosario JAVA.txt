@@ -1,0 +1,90 @@
+Glosario de Java
+
+String -----> Cadena (cadena de caracteres)
+
+char -----> Caracter
+
+byte  -----> Entero (de +127 hasta -128)
+
+short -----> Entero (de +32,768 hasta -32,767)
+
+int -----> Entero (de  2,147,483,647 hasta -2,147,483,648)
+
+long -----> Entero (de +9,223,372,036,854,775,807 hasta -9,223,372,036,854,775,808)
+
+
+float -----> Reales (de 3.402,823,5 E+38 hasta1.4 E-45)
+
+double -----> Reales (de 1.797,693,134,862,315,7 E+308 hasta 4.9 E-324)
+
+boolean -----> Logico (true-false)
+
+
+if ----> Si
+
+else ----> SiNo
+
+switch ----> Segun
+
+while ----> Mientras
+
+do - While ----> Hacer - Mientras Que
+
+for ----> Para
+
+
+
+Operadores lógicos
+
+
+&& ----> Y (evalúa todas las condiciones)
+
+& = Y (evalúa hasta que encuentre un falso)
+
+|| = O (evalúa todas las condiciones)
+
+| = O  (evalúa hasta que encuentre un verdadero)
+
+== igual para comparación
+
+= igual de asignación
+! negación
+
+!= desigual
+
+
+
+Operadores aritméticos
+
+
+suma = x+y;
+
+resta = x-y;
+
+multiplicación = x*y;
+
+división = x/y;
+
+mod = x%y;
+
+x += 5; // es lo mismo que x = x + 5, en ambos casos x resulta = 10
+
++= acumular
+
+-= disminuir (lo mismo que el ejemplo de x += 5 pero restando)
+
+/= dividir (lo mismo que el ejemplo de x += 5 pero dividiendo)
+
+*= multiplicar (lo mismo que el ejemplo de x += 5 pero multiplicando)
+
+%= modulo (lo mismo que el ejemplo de x += 5 pero sacando módulo)
+
+x = 5;
+
+x++; //x + 1; x = 6; (incrementa en uno)
+
+x--; //x - 1; x = 5; (decrece en uno)
+
+/*Se puede usar como prefijo y aumentar/disminuir un valor antes de operar/asignar;
+
+x++ o ++x*/

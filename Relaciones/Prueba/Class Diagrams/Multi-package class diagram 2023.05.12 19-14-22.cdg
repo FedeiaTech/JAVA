@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-package class diagram">
+  <ClassDiagramComponents>
+    <Class name="DNI" package="Entidad" visibility="public" xPosition="31.0" yPosition="77.0">
+      <Fields>
+        <Field name="serie" type="char" visibility="private"/>
+        <Field name="num" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Persona" package="Entidad" visibility="public" xPosition="472.0" yPosition="39.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellido" type="String" visibility="private"/>
+        <Field name="dni" type="DNI" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getDNI" returnType="DNI" visibility="public"/>
+        <Method name="setDNI" returnType="void" visibility="public">
+          <Argument type="DNI" name="dni"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ej01" package="ej01" visibility="public" xPosition="239.0" yPosition="346.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="dni" source="Entidad.Persona" target="Entidad.DNI" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Entidad.Persona" target="Entidad.DNI" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

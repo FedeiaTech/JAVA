@@ -1,0 +1,25 @@
+En Java, List, Queue y Set son interfaces que representan diferentes tipos de colecciones.
+A continuación, se presentan las principales diferencias entre ellas:
+
+List: es una colección ordenada de elementos que permite duplicados. 
+Los elementos en una lista se pueden acceder por su índice y se pueden agregar, 
+eliminar y modificar elementos en cualquier posición de la lista. Algunas implementaciones 
+comunes de la interfaz List son ArrayList, LinkedList y Vector.
+
+Queue: es una colección ordenada de elementos que se utiliza para representar una cola o 
+una línea de espera. Los elementos en una cola se agregan al final y se eliminan del 
+principio (es decir, el primer elemento que se agregó es el primero en salir). La interfaz 
+Queue extiende la interfaz Collection y agrega métodos específicos para las operaciones de 
+cola, como offer(), poll() y peek(). Algunas implementaciones comunes de la interfaz Queue 
+son LinkedList, PriorityQueue y ArrayDeque.
+
+Set: es una colección no ordenada de elementos que no permite duplicados. Los elementos en 
+un conjunto se almacenan en función de su valor de hash, lo que permite una búsqueda 
+rápida de elementos. La interfaz Set extiende la interfaz Collection y agrega métodos 
+específicos para las operaciones de conjunto, como add(), remove() y contains(). Algunas 
+implementaciones comunes de la interfaz Set son HashSet, TreeSet y LinkedHashSet.
+
+En resumen, la principal diferencia entre List, Queue y Set es la forma en que se ordenan 
+los elementos y si permiten duplicados. La interfaz List es ordenada y permite duplicados, 
+la interfaz Queue es ordenada y no permite duplicados, y la interfaz Set es no ordenada y 
+no permite duplicados.

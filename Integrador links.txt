@@ -1,0 +1,36 @@
+En el día de hoy vamos a realizar dos actividades: un ejercicio y el Integrador. Estamos finalizando el curso y te proponemos realizar una revisión para demostrar el grado de dominio de los conocimientos aprendidos 
+
+Si no tuviste el resultado que esperabas, puedes tomarlo como un indicio sobre qué contenidos claves sería preciso repasar. Continúa hacia adelante, ¡si has llegado hasta aquí, ya estás en un buen camino!
+
+
+ 1. Ejercicio
+Previo al Integrador, realizaremos individualmente el Ejercicio del Desafío Estudiantes.
+
+Este ejercicio, no hay que entregarlo. Es un momento más de preparación para el Integrador y las preguntas están relacionadas directamente con este ejercicio.
+
+¡Recuerda no compartir códigos con el resto del equipo!Tu objetivo es validar el conocimiento adquirido durante estas últimas semanas.
+
+Condiciones para resolver el ejercicio:
+
+Es obligatorio el uso de objetos y de un vector con objetos
+No es necesario que el usuario ingrese los valores de los estudiantes, pueden llenarse de manera manual.
+Se puede consultar en el equipo por orientaciones para resolverlo, no se puede compartir código, ni mostrar, ni dictar.
+
+
+https://docs.google.com/document/d/1bAASrN5rNoZEMzWOlDNBgvIDVqtAOMpI9CD6UgxxBj8/edit#
+
+
+ 2. Integrador
+Tendrás sólo un intento para resolver el Integrador, así que no te apures a responder.
+
+Tienes todos las herramientas necesarias a tu disposición para afrontar esta instancia. ¡Tú puedes! 
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSf1tQ93QI4RUvF0PdlGf84kBDkmUhxYhSZ6E4woqZaytydazg/viewform
+
+
+¿Qué te ha parecido el curso?
+¡Felicitaciones! Has completado el curso Backend 1: Introducción a Java. Queremos conocer cómo fue tu experiencia durante estas semanas por lo que te pedimos que contestes esta breve encuesta.
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSdu-8gM4D1yJBGz8EWavysSl1cE6Xud3QSLhCj9z2G7YBp_RQ/viewform

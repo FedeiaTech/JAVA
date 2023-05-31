@@ -1,0 +1,33 @@
+.Como actualizar una lista modificando un objeto
+
+public void actualizarObjeto(int indice) {
+	Objeto m = nombreLista.get(indice);
+	m.setSeccionObjeto("nuevo nombre");	//no es necesario volver a escribir en la lista
+	}
+
+
+.Como actualizar una lista creando un objeto y pisando el anterior por indice
+
+public void actualizarObjeto(int indice) {
+	Objeto m = funcionCrearNuevoObjeto();
+	nombreLista.set(indice, m);	//pisa el anterior objeto de la lista con el nuevo creado
+	}
+
+
+.Como eliminar en una lista por indice
+
+public void eliminarObjeto(int indice) {
+	nombreLista.remove(indice);
+	}
+
+
+.Es buena practica usar un if para evitar errores al actualizar o borrar
+
+public void eliminarObjeto(int indice) {
+
+	if (indice <= nombreLista.size() -1 ) {
+		nombreLista.remove(indice);
+	} else {
+		sout("el indice es erroneo")
+	}
+	

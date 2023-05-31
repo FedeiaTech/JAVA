@@ -1,0 +1,22 @@
+Ponerle static a una variable implica convertir un valor de instancia(propio para cada variable)
+en un valor de clase que mantenga fijo el valor en la variable.
+
+Pasos para declarar una variable static
+//En declaracion de atributos: se precede la palabra static al nombre de la variable
+private static tipo variable;
+
+//en constructor
+this.variable = valor;
+
+//cambiar: el atributo de clase se representa con el nombre del constructor y el nombre de la variable
+nombreObjeto.variable = valor
+
+Su valor lo adquiere desde el constructor y afectara a todos los objetos creados que lleven
+el atributo statico de ese objeto.
+
+Las modificaciones de un atributo estatico afectaran el valor del mismo atributo en el resto de los objetos
+
+Conceptualmente, deberemos agregar static al metodo si vamos a realizar alguna modificacion en el atributo
+static.
+
+La modificacion de un atributo static debe hacerse sobre el constructos

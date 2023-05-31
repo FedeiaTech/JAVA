@@ -1,0 +1,39 @@
+import java.time.LocalDate;
+
+LocalDate fecha1 = LocalDate.now();			//Fecha actual(yyyy-mm-dd)
+LocalDate fecha2 = LocalDate.parse("yyyy-mm-dd");	//Fecha seteable(yyyy-mm-dd)
+
+LocalDateTime horaActual = LocalDateTime.now();		//Hora actual(yyyy-mm-dd)
+
+fecha2 = fecha2.plusDays(num);				//suma dias a la fecha
+fecha2 = fecha2.plusWeeks(num);				//suma semanas a la fecha
+fecha2 = fecha2.plusMonths(num);			//suma meses a la fecha
+fecha2 = fecha2.plusYears(num);				//suma años a la fecha
+
+fecha2 = fecha2.minusDays(num);				//resta dias a la fecha
+fecha2 = fecha2.minusWeeks(num);			//resta semanas a la fecha
+fecha2 = fecha2.minusMonths(num);			//resta meses a la fecha
+fecha2 = fecha2.minusYears(num);			//resta años a la fecha
+
+-se muestra con un sout
+
+					-----------------
+Para cambiar el formato de la fecha a (dd-mm-yyyy)
+ 	// Fecha actual en formato de cadena de texto
+        String fechaCadena = "24/05/2023";
+
+        // Definir el formato actual de la cadena de fecha
+        DateTimeFormatter formatoActual = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+        // Parsear la cadena de fecha y obtener un objeto LocalDate
+        LocalDate fechaLocalDate = LocalDate.parse(fechaCadena, formatoActual);
+
+        // Imprimir la fecha LocalDate
+        System.out.println(fechaLocalDate);
+    
+La cadena de fecha "24/05/2023" se parsea utilizando el formato "dd/MM/yyyy", 
+que representa el día, el mes y el año con dos dígitos cada uno, separados por 
+barras inclinadas. Luego, se obtiene un objeto LocalDate correspondiente a la fecha proporcionada.
+
+Al ejecutar el código, se imprimirá la fecha 2023-05-24, que es la representación 
+en formato LocalDate de la cadena de fecha original.

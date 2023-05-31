@@ -1,0 +1,47 @@
+En Java, los dos puntos dobles (::) se utilizan como una referencia de método. 
+Una referencia de método es una forma de referirse a un método sin ejecutarlo.
+
+La sintaxis básica de una referencia de método es la siguiente:
+
+Clase::metodo
+
+Donde Clase es el nombre de la clase que define el método y metodo es el nombre del método.
+
+Hay varios tipos de referencias de método en Java, que se pueden dividir en cuatro categorías:
+
+Referencia de método de instancia: se refiere a un método de instancia en una clase, por ejemplo:
+
+Objeto::metodo
+
+Donde Objeto es una instancia de la clase que define el método y metodo es el nombre del método.
+
+Referencia de método de clase: se refiere a un método estático en una clase, por ejemplo:
+
+Clase::metodo
+
+Donde Clase es el nombre de la clase que define el método y metodo es el nombre del método.
+
+Referencia de constructor: se refiere a un constructor en una clase, por ejemplo:
+
+Clase::new
+
+Donde Clase es el nombre de la clase que define el constructor.
+
+Referencia de método de instancia de un tipo particular: se refiere a un método de instancia 
+en un objeto de un tipo particular, por ejemplo:
+
+Tipo::metodo
+
+Donde Tipo es el nombre de un tipo particular de objeto y metodo es el nombre del método.
+
+En resumen, los dos puntos dobles en Java se utilizan como una referencia de método, que es una 
+forma de referirse a un método sin ejecutarlo. Las referencias de método son útiles para 
+simplificar el código y hacerlo más legible. 
+
+Forma resumida de usar un Comparator usando doble dos puntos:
+
+Comparator <Objeto> comp = Comparator.comparing(Objeto::get.primerElemento);
+Collections.sort(Lista, comp.reversed);
+
+Comparator<Pelicula> comp = Comparator.comparing(Pelicula::getDuracion);
+Collections.sort(peliculasLista, comp.reversed());
